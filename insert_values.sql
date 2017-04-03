@@ -1,5 +1,5 @@
 \c project 
-/*
+
 insert into Company (comp_id, comp_name) values (17, 'Dabtype');
 insert into Company (comp_id, comp_name) values (18, 'Quimba');
 insert into Company (comp_id, comp_name) values (14, 'Youfeed');
@@ -227,16 +227,19 @@ insert into EmployeeAddresses (emp_id, pincode, area, street) values (96, 162413
 
 
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (1, 'Todd', 'Rice', '0659369982', 'son');
+insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (4, 'Tracy', 'Gibson', '0659369482', 'daughter');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (4, 'Christine', 'Gibson', '6711661478', 'daughter');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (6, 'Ryan', 'Jones', '5867401049', 'father');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (8, 'Albert', 'Nelson', '1848394608', 'mother');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (10, 'Harry', 'Welch', '5944046279', 'brother');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (17, 'Victor', 'Cox', '37554491710', 'son');
+insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (17, 'Bruno', 'Cobbs', '0349369982', 'nephew');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (18, 'Christopher', 'Henry', '9679744175', 'daughter');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (37, 'Gloria', 'Cook', '5648683642', 'father');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (39, 'Frances', 'Elliott', '4517225186', 'mother');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (57, 'Carl', 'Wheeler', '0924504129', 'brother');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (65, 'Jimmy', 'Long', '2050708009', 'son');
+insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (76, 'Kendall', 'Jenner', '0659209982', 'daughter');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (68, 'Stephen', 'Dunn', '0343496550', 'daughter');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (70, 'Nicole', 'Dixon', '5124350962', 'father');
 insert into Dependants (emp_id, dep_fname, dep_lname, dep_phone, relationship) values (74, 'Mark', 'Campbell', '8824861385', 'mother');
@@ -356,4 +359,3 @@ insert into LedgerEntries (ledger_id, bill_id) values (72, 84);
 insert into LedgerEntries (ledger_id, bill_id) values (76, 86);
 insert into LedgerEntries (ledger_id, bill_id) values (88, 94);
 
-*/
